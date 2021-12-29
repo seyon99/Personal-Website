@@ -31,6 +31,11 @@
         "name": "email",
         "url": "mailto:seyonkuganesan@gmail.com",
         "className": "fa fa-envelope"
+      },
+      {
+        "name": "resume",
+        "url": "https://www.linkedin.com/in/seyon-kuganesan/",
+        "className": "fa fa-file"
       }
     ]
   },
@@ -40,22 +45,22 @@
       {
         "school": "University of Toronto",
         "degree": "Honours Bachelor of Science in Computer Science - Software Engineering Stream",
-        "graduated": "April 2007",
-        "description": "Describe your experience at school, what you learned, what useful skills you have acquired etc."
+        "graduated": "September 2017 - Present",
+        "description": "Relevant coursework: Software Engineering, Systems Programming, Databases, Data Structures, Web Development, Algorithm Design and Analysis, Computer Architecture, Operating Systems, Computational Complexity, Linear Algebra I + II, Multivariable Calculus"
       }
     ],
     "work": [
       {
-        "company": "Awesome Design Studio",
-        "title": "Senior UX God ",
-        "years": "March 2010 - Present",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Ciena",
+        "title": "Software Engineering Intern",
+        "years": "January 2022 - Present",
+        "description": ""
       },
       {
-        "company": "Super Cool Studio",
-        "title": "Junior bug fixer",
-        "years": "March 2007 - February 2010",
-        "description": "Describe work, special projects, notable achievements, what technologies you have been working with, and anything else that would be useful for an employer to know."
+        "company": "Interac",
+        "title": "Site Reliability Engineering Intern",
+        "years": "May 2021 - August 2021",
+        "description": ""
       }
     ],
     "skills": [

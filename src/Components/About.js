@@ -26,7 +26,7 @@ class About extends Component {
             <h2>About Me</h2>
 
             <p>Hello! I Study Computer Science at the University of Toronto and I am passionate about software development. 
-               I have interned at Ciena and Interac in Software Engineering and Site Reliability Engineering roles respectively.</p>
+               I have interned at <a href="https://www.ciena.com/">Ciena</a> and <a href="https://www.interac.ca/en/">Interac</a> in Software Engineering and Site Reliability Engineering roles respectively.</p>
             {/* <div className="row">
                <div className="columns contact-details">
                   <h2>Contact Details</h2>
