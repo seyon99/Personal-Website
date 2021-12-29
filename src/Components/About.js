@@ -28,18 +28,7 @@ class About extends Component {
             <p>Hello! I Study Computer Science at the University of Toronto and I am passionate about software development. 
                I have interned at <a href="https://www.ciena.com/" target="_blank">Ciena</a> and <a href="https://www.interac.ca/en/" target="_blank">Interac</a> in Software Engineering and Site Reliability Engineering roles respectively.</p>
             <p>Apart from coding, my hobbies include listening to music and podcasts, playing basketball, and playing sandbox games such as Minecraft. Thanks for visiting my website, and please feel free to contact me.</p>
-            {/* <div className="row">
-               <div className="columns contact-details">
-                  <h2>Contact Details</h2>
-                  <p className="address">
-						   <span>{name}</span><br />
-						   <span>{street}<br />
-						         {city} {state}, {zip}
-                   </span><br />
-						   <span>{phone}</span><br />
-                     <span>{email}</span>
-					   </p>
-               </div>
+            {/*
                <div className="columns download">
                   <p>
                      <a href={resumeDownload} className="button"><i className="fa fa-download"></i>Download Resume</a>
