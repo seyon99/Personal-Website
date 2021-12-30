@@ -19,7 +19,7 @@ class Footer extends Component {
            </ul>
 
            <ul className="copyright">
-              <li>&copy; Copyright {new Date().getFullYear()} Seyon Kuganesan</li>
+              <li>&copy; Seyon Kuganesan {new Date().getFullYear()}</li>
            </ul>
 
         </div>
