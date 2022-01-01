@@ -32,8 +32,9 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h1 className="responsive-headline">{name}</h1>
-            <h3>{occupation}</h3>
+            <h3>Hello, my name is</h3>
+            <h1 className="responsive-headline">Seyon Kuganesan</h1>
+            <h3>{occupation}</h3> \*For loop "I am a ..." goes here*\
             <hr />
             <ul className="social">
                {networks}
