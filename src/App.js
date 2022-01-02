@@ -49,7 +49,6 @@ class App extends Component {
         <About data={this.state.resumeData.main}/>
         <Resume data={this.state.resumeData.resume}/>
         <Portfolio data={this.state.resumeData.portfolio}/>
-        {/* TODO: create job cards using Interac and Ciena logos under Work section, include more animations, include most listened to song on webpage*/}
         <Footer data={this.state.resumeData.main}/>
       </div>
     );
