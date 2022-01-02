@@ -34,10 +34,10 @@ class Header extends Component {
 
             <div className="row banner">
                <div className="banner-text">
-                  <h3>Hello, my name is</h3>
+                  {/* <h3>Hello, my name is</h3> */}
                   <h1 className="responsive-headline">Seyon Kuganesan</h1>
                   <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
-                  <h3><span id="type-it">I am a</span></h3>
+                  <h3><span> Software Developer | CS student</span></h3>
                   {/* <div className="App">
                      <TypeIt>This will be typed in a `span` element!</TypeIt>
                   </div> */}
