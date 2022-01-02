@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
+import TypeIt from 'typeit-react';
 
 class Header extends Component {
+   
   render() {
 
     if(this.props.data){
@@ -32,9 +34,13 @@ class Header extends Component {
 
       <div className="row banner">
          <div className="banner-text">
-            <h3>Hello, my name is</h3>
+            <h2>Hello, my name is</h2>
             <h1 className="responsive-headline">Seyon Kuganesan</h1>
-            <h3>{occupation}</h3> \*For loop "I am a ..." goes here*\
+            <script src="https://unpkg.com/typeit@8.2.0/dist/index.umd.js"></script>
+            <h3><span id="type-it">Hello World</span></h3>
+            {/* <div className="pots">
+            <TypeIt>This will be typed in a `span` element!</TypeIt>
+            </div> */}
             <hr />
             <ul className="social">
                {networks}
