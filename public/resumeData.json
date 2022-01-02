@@ -96,32 +96,32 @@
   "portfolio": {
     "projects": [
       {
-        "title": "Canadian Wanderlust",
-        "category": "My Travel Blog for my post-university travels",
+        "title": "GoodBite",
+        "category": "SMS application which allows users to get directions to the nearest restaurants near them serving the cuisine of their choice, without an internet connection.",
         "image": "canadian-wanderlust.jpg",
-        "url": "https://www.canadianwanderlust.com"
+        "url": "https://github.com/seyon99/Good-Bite"
       },
       {
-        "title": "Fury Fighting Gear",
-        "category": "(offline now) A fighting gear company I started",
+        "title": "Project Factory",
+        "category": "A Dockerized web application to share side projects and find collaborators, built using TypeScript, MongoDB, Express, React, Node, Firebase, and AWS.",
         "image": "fury-fighting-gear.jpg",
-        "url": "http://www.timbakerdev.com"
+        "url": "https://github.com/seyon99/Project-Factory"
       },
       {
-        "title": "Original Thai Food",
-        "category": "Website I built for a restaurant I like in Thailand",
+        "title": "Ridesharing REST API",
+        "category": "A REST API for an Uber-like ride sharing application which utilizes microservices supported by MongoDB, Neo4j, and PostgreSQL.",
         "image": "original-thai-food.jpg",
         "url": "http://www.timbakerdev.com/originalthaifood.github.io"
       },
       {
-        "title": "Resume Website",
-        "category": "A React based resume website template",
+        "title": "Personal Website",
+        "category": "This website!",
         "image": "resume-website.jpg",
-        "url": "http://www.timbakerdev.com"
+        "url": "http://www.seyonkuganesan.com"
       },
       {
-        "title": "Smirkspace",
-        "category": "(MVP Only) A React and Meteor based chat University project.",
+        "title": "LaTeX Resume Generator",
+        "category": "A Django web app which makes creating LaTeX resumes more accessible",
         "image": "smirkspace.jpg",
         "url": "http://www.smirkspace.com"
       }
