@@ -113,7 +113,7 @@
         "title": "Ridesharing REST API",
         "category": "A REST API for an Uber-like ride sharing application which utilizes microservices supported by MongoDB, Neo4j, and PostgreSQL.",
         "image": "rest-api.jpg",
-        "url": "http://www.timbakerdev.com/originalthaifood.github.io"
+        "url": "https://github.com/seyon99/RideSharingAPI"
       },
       {
         "title": "Personal Website",
