@@ -51,12 +51,14 @@
     "work": [
       {
         "company": "Ciena",
+        "website": "https://www.ciena.com/",
         "title": "Software Engineering Intern",
         "years": "January 2022 - Present",
         "description": ""
       },
       {
         "company": "Interac",
+        "website": "https://www.interac.ca/en/",
         "title": "Site Reliability Engineering Intern",
         "years": "May 2021 - August 2021",
         "description": ""
