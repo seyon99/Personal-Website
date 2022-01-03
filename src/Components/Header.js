@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import TypeIt from 'typeit-react';
 
 class Header extends Component {
    

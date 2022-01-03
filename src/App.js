@@ -7,7 +7,6 @@ import Footer from './Components/Footer';
 import About from './Components/About';
 import Resume from './Components/Resume';
 import Portfolio from './Components/Portfolio';
-import TypeIt from 'typeit-react';
 
 class App extends Component {
 
