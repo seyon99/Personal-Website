@@ -120,12 +120,6 @@
         "category": "This website!",
         "image": "resume-website.jpg",
         "url": "http://www.seyonkuganesan.com"
-      },
-      {
-        "title": "LaTeX Resume Generator",
-        "category": "A Django web app which makes creating LaTeX resumes more accessible",
-        "image": "smirkspace.jpg",
-        "url": "http://www.smirkspace.com"
       }
     ]
   }
