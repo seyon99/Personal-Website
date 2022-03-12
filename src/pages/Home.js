@@ -1,6 +1,5 @@
 import React from 'react'
 import BIRDS from 'vanta/dist/vanta.birds.min'
-// Make sure window.THREE is defined, e.g. by including three.min.js in the document head using a <script> tag
 
 class Home extends React.Component {
   constructor() {
@@ -17,7 +16,7 @@ class Home extends React.Component {
   }
   render() {
     return <div style={{height: "100vh", width: "100wh", zIndex: -1}} ref={this.vantaRef}>
-      <span style={{color: 'white'}}>Seyon Kuganesan</span>
+      <h1 style={{color: 'white', fontSize: 100, display: "inline", margin: 0, position: "absolute", top: "50%", transform: "translateY(-90%)", paddingLeft: 50}}>Hey 👋, I'm Seyon</h1>
     </div>
   }
 }
