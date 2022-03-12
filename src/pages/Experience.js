@@ -6,19 +6,27 @@ import { makeStyles, ThemeProvider, createTheme } from '@material-ui/core/styles
 
 const useStyles = makeStyles({
     root: {
-        color: "#F72585", 
-        fontSize: 100,
+        backgroundColor: "#fdfcdc",
+        width: "100wh",
+        height: "100vh",
     },
+    pgTitle: {
+        color: "#0081a7",
+        fontSize: 100,
+        fontWeight: 'bold',
+        paddingLeft: 15,
+    }
 });
 
-function Experience(){
+function Experience() {
     const classes = useStyles();
-    return(
+    return (
         <>
-        <h1 className={classes.root}>Work Experience</h1>
-        <div>lorum ipsum</div>
+            <div className={classes.root}>
+                <span className={classes.pgTitle}>Work Experience</span>
+            </div>
         </>
-        
+
     );
 }
 

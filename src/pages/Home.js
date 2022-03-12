@@ -22,12 +22,14 @@ class Home extends React.Component {
       }
     }
     render() {
-      return <div className={this.state.animationClass}>
+      return(
+      <div className={this.state.animationClass}>
         <h1 className="homeTitle">Seyon Kuganesan</h1>
         {/* <p>Hello! I Study Computer Science at the University of Toronto and I am passionate about software development. I have interned at Ciena and Interac in Software Engineering and Site Reliability Engineering roles respectively.
             Thanks for visiting my website, and please feel free to contact me!
             </p> */}
-      </div>;
+      </div>
+      );
     }
   }
   
