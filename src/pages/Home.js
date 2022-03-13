@@ -1,7 +1,16 @@
 import React from 'react';
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import { InsertDriveFile, GitHub, LinkedIn, Email } from '@mui/icons-material';
-import { makeStyles } from '@material-ui/core/styles';
+import { withStyles } from "@material-ui/core/styles";
+
+const styles = theme => ({
+  clickableIcon: {
+    color: 'white',
+    '&:hover': {
+    color: 'pink',
+    },
+  }
+});
 
 class Home extends React.Component {
   constructor() {
@@ -19,6 +28,7 @@ class Home extends React.Component {
   
   
   render() {
+    const { classes } = this.props;
     // might need to make use of zIndex: -1 in vantaRef sx
     return <div style={{ height: "100vh", width: "100wh" }} ref={this.vantaRef}> 
       <h1 style={{ color: 'white', fontSize: 100, display: "inline", margin: 0, position: "relative", top: "30%", paddingLeft: 50 }}>
@@ -26,7 +36,7 @@ class Home extends React.Component {
       </h1>
       <br></br>
       <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%",fontSize: 25, position: "relative", top: "35%", paddingLeft: 50 }}>
-        I am currently a Computer Science student at the University of Toronto. I have interned at <b>Ciena</b> and <b>Interac</b> in Software Engineering and Site Reliability Engineering roles respectively.
+        I am currently a Computer Science student at the University of Toronto. I have interned at <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.ciena.com'}>Ciena</b> and <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.interac.ca/en/'}>Interac</b> in Software Engineering and Site Reliability Engineering roles respectively.
         I enjoy exploring different areas of tech and honing my existing skills by building projects.
       </span>
       <br></br>
@@ -37,13 +47,13 @@ class Home extends React.Component {
       {/* can make links and stuff clickable/highlightable by doing some z-index shenanigans */}
       <br></br><br></br>
       <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%", position: "relative", top: "35%", paddingLeft: 50 }}>
-      <GitHub sx={{fontSize: 50}} onClick={event =>  window.location.href='https://github.com/seyon99'}/> 
-      <InsertDriveFile sx={{fontSize: 50}} onClick={event =>  window.location.href='https://seyonkuganesan.s3.us-east-2.amazonaws.com/resume.pdf'}/> 
-      <LinkedIn sx={{fontSize: 50}} onClick={event =>  window.location.href='https://www.linkedin.com/in/seyon-kuganesan/'}/> 
-      <Email sx={{fontSize: 50}} onClick={event =>  window.location.href='mailto:seyonkuganesan@gmail.com'}/>
+      <GitHub className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://github.com/seyon99'}/> 
+      <InsertDriveFile className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://seyonkuganesan.s3.us-east-2.amazonaws.com/resume.pdf'}/> 
+      <LinkedIn className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://www.linkedin.com/in/seyon-kuganesan/'}/> 
+      <Email className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='mailto:seyonkuganesan@gmail.com'}/>
       </span>
     </div>
   }
 }
 
-export default Home;
+export default withStyles(styles, { withTheme: true })(Home);
