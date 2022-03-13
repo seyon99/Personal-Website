@@ -1,4 +1,5 @@
 import React from 'react';
+import { useState, useLayoutEffect } from 'react';
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import { InsertDriveFile, GitHub, LinkedIn, Email } from '@mui/icons-material';
 import { withStyles } from "@material-ui/core/styles";
@@ -37,17 +38,17 @@ class Home extends React.Component {
       </h1>
       <br></br>
       <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%",fontSize: 25, paddingLeft: 50, paddingTop: 10 }}>
-        I am currently a Computer Science student at the University of Toronto. I have interned at <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.ciena.com'}>Ciena</b> and <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.interac.ca/en/'}>Interac</b> in Software Engineering and Site Reliability Engineering roles respectively.
+        I am currently a Computer Science student at the University of Toronto, and I have interned at <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.ciena.com'}>Ciena</b> and <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.interac.ca/en/'}>Interac</b> in Software Engineering and Site Reliability Engineering roles respectively.
         I enjoy exploring different areas of tech and honing my existing skills by building projects.
       </span>
       <br></br>
       <br></br>
       <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%",fontSize: 25, paddingLeft: 50 }}>
-        Thanks for visiting my website, and feel free to reach out.
+        Thanks for visiting my website, and feel free to reach out!
       </span>
       {/* can make links and stuff clickable/highlightable by doing some z-index shenanigans */}
       <br></br><br></br>
-      <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%", paddingLeft: 50 }}>
+      <span style={{ color: 'white', display: 'inline-block', maxWidth: "70%", paddingLeft: 50, paddingBottom: 50 }}>
       <GitHub className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://github.com/seyon99'}/> 
       <InsertDriveFile className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://seyonkuganesan.s3.us-east-2.amazonaws.com/resume.pdf'}/> 
       <LinkedIn className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://www.linkedin.com/in/seyon-kuganesan/'}/> 
