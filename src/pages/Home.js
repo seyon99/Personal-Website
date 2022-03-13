@@ -1,6 +1,7 @@
 import React from 'react';
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import { InsertDriveFile, GitHub, LinkedIn, Email } from '@mui/icons-material';
+import { makeStyles } from '@material-ui/core/styles';
 
 class Home extends React.Component {
   constructor() {
@@ -15,6 +16,8 @@ class Home extends React.Component {
   componentWillUnmount() {
     if (this.vantaEffect) this.vantaEffect.destroy()
   }
+  
+  
   render() {
     // might need to make use of zIndex: -1 in vantaRef sx
     return <div style={{ height: "100vh", width: "100wh" }} ref={this.vantaRef}> 
@@ -33,8 +36,11 @@ class Home extends React.Component {
       </span>
       {/* can make links and stuff clickable/highlightable by doing some z-index shenanigans */}
       <br></br><br></br>
-      <span style={{ fontSize: 'medium',color: 'white', display: 'inline-block', maxWidth: "50%", position: "relative", top: "35%", paddingLeft: 50 }}>
-      <GitHub /> <InsertDriveFile /> <LinkedIn /> <Email />
+      <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%", position: "relative", top: "35%", paddingLeft: 50 }}>
+      <GitHub sx={{fontSize: 50}} onClick={event =>  window.location.href='https://github.com/seyon99'}/> 
+      <InsertDriveFile sx={{fontSize: 50}} onClick={event =>  window.location.href='https://seyonkuganesan.s3.us-east-2.amazonaws.com/resume.pdf'}/> 
+      <LinkedIn sx={{fontSize: 50}} onClick={event =>  window.location.href='https://www.linkedin.com/in/seyon-kuganesan/'}/> 
+      <Email sx={{fontSize: 50}} onClick={event =>  window.location.href='mailto:seyonkuganesan@gmail.com'}/>
       </span>
     </div>
   }
