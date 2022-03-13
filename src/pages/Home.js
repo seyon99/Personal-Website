@@ -36,7 +36,7 @@ class Home extends React.Component {
         Hey 👋, I'm Seyon
       </h1>
       <br></br>
-      <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%",fontSize: 25, paddingLeft: 50 }}>
+      <span style={{ color: 'white', display: 'inline-block', maxWidth: "50%",fontSize: 25, paddingLeft: 50, paddingTop: 10 }}>
         I am currently a Computer Science student at the University of Toronto. I have interned at <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.ciena.com'}>Ciena</b> and <b className={classes.clickableIcon} onClick={event =>  window.location.href='https://www.interac.ca/en/'}>Interac</b> in Software Engineering and Site Reliability Engineering roles respectively.
         I enjoy exploring different areas of tech and honing my existing skills by building projects.
       </span>
