@@ -20,7 +20,16 @@ class Home extends React.Component {
   }
   componentDidMount() {
     this.vantaEffect = BIRDS({
-      el: this.vantaRef.current
+      el: this.vantaRef.current,
+      mouseControls: true,
+  touchControls: true,
+  gyroControls: false,
+  minHeight: 200.00,
+  minWidth: 200.00,
+  scale: 1.00,
+  scaleMobile: 1.00,
+  birdSize: 1.10,
+  quantity: 3.00
     })
   }
   componentWillUnmount() {
@@ -49,9 +58,9 @@ class Home extends React.Component {
       {/* can make links and stuff clickable/highlightable by doing some z-index shenanigans */}
       <br></br><br></br>
       <span style={{ color: 'white', display: 'inline-block', maxWidth: "70%", paddingLeft: 50, paddingBottom: 50 }}>
-      <GitHub className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://github.com/seyon99'}/> 
-      <InsertDriveFile className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://seyonkuganesan.s3.us-east-2.amazonaws.com/resume.pdf'}/> 
-      <LinkedIn className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='https://www.linkedin.com/in/seyon-kuganesan/'}/> 
+      <GitHub className={classes.clickableIcon} sx={{fontSize: 50, marginRight: 1}} onClick={event =>  window.location.href='https://github.com/seyon99'}/> 
+      <InsertDriveFile className={classes.clickableIcon} sx={{fontSize: 50, marginRight: 1}} onClick={event =>  window.location.href='https://seyonkuganesan.s3.us-east-2.amazonaws.com/resume.pdf'}/> 
+      <LinkedIn className={classes.clickableIcon} sx={{fontSize: 50, marginRight: 1}} onClick={event =>  window.location.href='https://www.linkedin.com/in/seyon-kuganesan/'}/> 
       <Email className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='mailto:seyonkuganesan@gmail.com'}/>
       </span>
       </div>
