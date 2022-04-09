@@ -41,7 +41,7 @@ class Home extends React.Component {
     const { classes } = this.props;
     // might need to make use of zIndex: -1 in vantaRef sx
     return <div style={{ height: "100vh", width: "100wh", position: "relative" }} ref={this.vantaRef}>
-      <div style={{position: "absolute", top: "30%", transform: "translateY(-30%)"}}>
+      <div style={{position: "absolute", marginTop: 180}}>
       <h1 style={{ color: 'white', fontSize: 100, display: "inline-block", margin: 0, paddingLeft: 50, paddingRight: 50 }}>
         Hey 👋, I'm Seyon
       </h1>
