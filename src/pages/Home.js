@@ -3,6 +3,7 @@ import { useState, useLayoutEffect } from 'react';
 import BIRDS from 'vanta/dist/vanta.birds.min';
 import { InsertDriveFile, GitHub, LinkedIn, Email } from '@mui/icons-material';
 import { withStyles } from "@material-ui/core/styles";
+import Experience from './Experience.js'
 
 const styles = theme => ({
   clickableIcon: {
@@ -10,7 +11,7 @@ const styles = theme => ({
     '&:hover': {
     color: 'pink',
     },
-  }
+  },
 });
 
 class Home extends React.Component {
@@ -63,8 +64,10 @@ class Home extends React.Component {
       <LinkedIn className={classes.clickableIcon} sx={{fontSize: 50, marginRight: 1}} onClick={event =>  window.location.href='https://www.linkedin.com/in/seyon-kuganesan/'}/> 
       <Email className={classes.clickableIcon} sx={{fontSize: 50}} onClick={event =>  window.location.href='mailto:seyonkuganesan@gmail.com'}/>
       </span>
+      <Experience />
       </div>
     </div>
+    
   }
 }
 
