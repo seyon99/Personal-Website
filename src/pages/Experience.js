@@ -22,6 +22,7 @@ const useStyles = makeStyles({
         width: "100wh",
         height: "100vh",
         paddingLeft: 50,
+        paddingRight: 50
     },
     pgTitle: {
         color: "#fff",
@@ -68,7 +69,7 @@ const projects = [
     },
     {
         projName: "AI Caption Generator",
-        desc: "REST API to generate image captions using a convolutional neural network, built primarily using Kotlin + Spring Boot, Python, and AWS S3 & Lambda",
+        desc: "REST API to generate image captions using a convolutional neural network, built primarily using Kotlin + Spring Boot, Python, and AWS S3 + Lambda",
         link: "https://github.com/seyon99/AI-Caption-Generator",
         img: "https://miro.medium.com/max/1400/1*uAeANQIOQPqWZnnuH-VEyw.jpeg"
     }
