@@ -59,7 +59,7 @@ const projects = [
         projName: "LaTeX Resume Generator",
         desc: "Dockerized web application to generate LaTeX resumes for software engineers using plain text inputs, built using Java + Spring Boot.",
         link: "https://github.com/seyon99/LaTeX-Resume-Generator",
-        img: "https://writelatex.s3.amazonaws.com/published_ver/19515.jpeg?X-Amz-Expires=14400&X-Amz-Date=20220828T181952Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAWJBOALPNFPV7PVH5/20220828/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=1f0f812fdc6d55f88bba7ab6a479dcf89ef86c55b4d5d1b2befdb741a42f3217"
+        img: "https://www.feed4ward.com/wp-content/uploads/2019/12/latex-example-lrge.png"
     },
     {
         projName: "Tradeverse",
